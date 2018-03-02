@@ -1,0 +1,271 @@
+Script started on Thu 01 Mar 2018 10:29:45 AM PST
+]0;monje001@empress:~/cs421/CS421Progs/HW2BFiles[?1034h[monje001@empress HW2BFiles]$ g++ fa.cpp
+]0;monje001@empress:~/cs421/CS421Progs/HW2BFiles[monje001@empress HW2BFiles]$ ./a.out
+Enter the input file name:fain.txt
+.....Scanner was called.....
+Word is:ab_2a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: _
+I am stuck in state 2
+Trying the indentifier machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: a
+Type is:IDENT_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:a_b_2_a
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: _
+I am stuck in state 1
+Trying the indentifier machine...
+current state: 0
+character: a
+current state: 1
+character: _
+current state: 1
+character: b
+current state: 1
+character: _
+current state: 1
+character: 2
+current state: 1
+character: _
+current state: 1
+character: a
+Type is:IDENT_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:.23
+Trying the mytoken machine...
+current state: 0
+character: .
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: .
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: .
+current state: 1
+character: 2
+current state: 2
+character: 3
+Type is:REAL_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:23.3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 3
+Type is:REAL_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:23
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+Trying the integer machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+Type is:INT_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:ab&c
+Trying the mytoken machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 2
+character: &
+I am stuck in state 2
+Trying the indentifier machine...
+current state: 0
+character: a
+current state: 1
+character: b
+current state: 1
+character: &
+I am stuck in state 1
+Trying the real number machine...
+current state: 0
+character: a
+I am stuck in state 0
+Trying the integer machine...
+current state: 0
+character: a
+I am stuck in state 0
+Lexical Error: The string is not in my language
+Type is:ERROR_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:23.6
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+current state: 1
+character: 6
+I am stuck in state 1
+Trying the integer machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:2a3
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: a
+I am stuck in state 0
+Trying the integer machine...
+current state: 0
+character: 2
+current state: 1
+character: a
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:22..2
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: 2
+current state: 0
+character: .
+current state: 1
+character: .
+I am stuck in state 1
+Trying the integer machine...
+current state: 0
+character: 2
+current state: 1
+character: 2
+current state: 1
+character: .
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:23.
+Trying the mytoken machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: 2
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: 2
+current state: 0
+character: 3
+current state: 0
+character: .
+Trying the integer machine...
+current state: 0
+character: 2
+current state: 1
+character: 3
+current state: 1
+character: .
+I am stuck in state 1
+Lexical Error: The string is not in my language
+Type is:ERROR_______________________________________________________________________________*
+.....Scanner was called.....
+Word is:EOF
+Trying the mytoken machine...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the indentifier machine...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the real number machine...
+current state: 0
+character: E
+I am stuck in state 0
+Trying the integer machine...
+current state: 0
+character: E
+I am stuck in state 0
+Lexical Error: The string is not in my language
+]0;monje001@empress:~/cs421/CS421Progs/HW2BFiles[monje001@empress HW2BFiles]$ exit
+exit
+
+Script done on Thu 01 Mar 2018 10:30:19 AM PST
